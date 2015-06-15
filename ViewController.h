@@ -6,11 +6,8 @@
 //  Copyright (c) 2015 sk. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController : UIViewController
-
-- (IBAction)finish:(id)sender;
+@interface ViewController : ViewController
 
 @end
-

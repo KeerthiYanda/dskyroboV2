@@ -14,6 +14,8 @@
 		3A130C031B2F78CD00D9E973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A130C021B2F78CD00D9E973 /* Images.xcassets */; };
 		3A130C061B2F78CD00D9E973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A130C041B2F78CD00D9E973 /* LaunchScreen.xib */; };
 		3A130C121B2F78CD00D9E973 /* dskyroboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A130C111B2F78CD00D9E973 /* dskyroboTests.m */; };
+		3A130C1D1B2F7F5E00D9E973 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A130C1C1B2F7F5E00D9E973 /* WelcomeViewController.m */; };
+		3A130C201B2F855D00D9E973 /* finishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A130C1F1B2F855D00D9E973 /* finishViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3A130C0B1B2F78CD00D9E973 /* dskyroboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dskyroboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A130C101B2F78CD00D9E973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A130C111B2F78CD00D9E973 /* dskyroboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dskyroboTests.m; sourceTree = "<group>"; };
+		3A130C1B1B2F7F5E00D9E973 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		3A130C1C1B2F7F5E00D9E973 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		3A130C1E1B2F855D00D9E973 /* finishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finishViewController.h; sourceTree = "<group>"; };
+		3A130C1F1B2F855D00D9E973 /* finishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = finishViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				3A130BFC1B2F78CD00D9E973 /* ViewController.h */,
 				3A130BFD1B2F78CD00D9E973 /* ViewController.m */,
 				3A130BFF1B2F78CD00D9E973 /* Main.storyboard */,
+				3A130C1E1B2F855D00D9E973 /* finishViewController.h */,
+				3A130C1F1B2F855D00D9E973 /* finishViewController.m */,
+				3A130C1B1B2F7F5E00D9E973 /* WelcomeViewController.h */,
+				3A130C1C1B2F7F5E00D9E973 /* WelcomeViewController.m */,
 				3A130C021B2F78CD00D9E973 /* Images.xcassets */,
 				3A130C041B2F78CD00D9E973 /* LaunchScreen.xib */,
 				3A130BF51B2F78CD00D9E973 /* Supporting Files */,
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A130BFE1B2F78CD00D9E973 /* ViewController.m in Sources */,
+				3A130C1D1B2F7F5E00D9E973 /* WelcomeViewController.m in Sources */,
 				3A130BFB1B2F78CD00D9E973 /* AppDelegate.m in Sources */,
 				3A130BF81B2F78CD00D9E973 /* main.m in Sources */,
+				3A130C201B2F855D00D9E973 /* finishViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
